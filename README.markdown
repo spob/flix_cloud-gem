@@ -13,7 +13,7 @@ Rails
 
 If you're using rails, you can add the following to your environment.rb:
 
-    config.gem 'flixcloud-flix_cloud-gem', :lib => 'flix_cloud', :source => 'http://gems.github.com'
+    config.gem 'spob-flix_cloud-gem', :lib => 'flix_cloud', :source => 'http://gems.github.com'
     config.gem 'sevenwire-http_client', :lib => 'http_client', :source => 'http://gems.github.com'
     config.gem 'crack'
 
