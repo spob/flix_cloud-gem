@@ -5,9 +5,9 @@ Gem::Specification.new do |s|
   s.version = "0.5.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Nathan Sutton"]
-  s.date = %q{2009-04-17}
-  s.email = %q{nate@sevenwire.com}
+  s.authors = ["Bob Sturim"]
+  s.date = %q{2009-06-26}
+  s.email = %q{bob@firehoze.com}
   s.extra_rdoc_files = [
     "LICENSE",
     "README.markdown"
@@ -37,11 +37,11 @@ Gem::Specification.new do |s|
     "test/test_helper.rb"
   ]
   s.has_rdoc = true
-  s.homepage = %q{http://github.com/zencoder/flix_cloud-gem}
+  s.homepage = %q{http://github.com/spob/flix_cloud-gem}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.1}
-  s.summary = %q{Gem for integrating with http://flixcloud.com}
+  s.summary = %q{Gem for integrating with http://flixcloud.com, forked to allow thumbnails to be specified as well}
   s.test_files = [
     "test/flix_cloud/file_locations_test.rb",
     "test/flix_cloud/file_test.rb",
