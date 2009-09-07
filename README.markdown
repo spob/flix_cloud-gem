@@ -13,7 +13,7 @@ Rails
 
 If you're using rails, you can add the following to your environment.rb:
 
-    config.gem 'flixcloud-flix_cloud-gem', :lib => 'flix_cloud', :source => 'http://gems.github.com'
+    config.gem 'spob-flix_cloud-gem', :lib => 'flix_cloud', :source => 'http://gems.github.com'
     config.gem 'sevenwire-http_client', :lib => 'http_client', :source => 'http://gems.github.com'
     config.gem 'crack'
 
@@ -47,7 +47,8 @@ You can create jobs using the Job class:
                              :output_url => 'ftp://url/to/your/output/file',
                              :output_user => 'username-for-ftp-here',
                              :output_password => 'password-for-ftp-here',
-                             :watermark_url => 's3://url/to/your/watermark/file')
+                             :watermark_url => 's3://url/to/your/watermark/file',
+                             :thumbnails_url => 's3://url/to/your/thumbnail-out-file')
     job.valid?         # true or false
     job.save           # true or false
     job.id             # returns the id of the saved job, or nil if it failed to save
